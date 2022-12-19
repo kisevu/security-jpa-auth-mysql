@@ -1,0 +1,12 @@
+spring:
+  application:
+    name:  SPRING SECURITY NEW WAY
+  datasource:
+    url: jdbc:mysql://localhost:3306/security
+    username: root
+    password: amedakevin1997
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
